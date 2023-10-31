@@ -1,16 +1,23 @@
 /*  your css code here. If applicable */
 #yellow{
 	background-color : yellow ;
-	border : 1px ;
 	
-	border-top : solid  green ;
-	border-left : solid green ;
-	border-right : solid green ;
-	border-bottom : solid green ;
+   border-top-width :1px ;
+border-left-width :1px ;
+border-right-width :1px ;
+border-bottom-width :1px ;
+	border-top :  solid  green ;
+	border-left :  solid green ;
+	border-right :  solid green ;
+	border-bottom :  solid green ;
 }
 #red{
 	background-color : red ;
-	border : 1px solid ;
+
+	border-top-width :1px ;
+border-left-width :1px ;
+border-right-width :1px ;
+border-bottom-width :1px ;
 	border-top : solid  black ;
 	border-left : solid black ;
 	border-right : solid black ;
@@ -18,9 +25,13 @@
 }
 #green{
 	background-color : green ;
-	border : 1px solid ;
-	border-top : solid  yellow ;
-	border-left : solid yellow;
-	border-right : solid yellow ;
+
+	border-top-width :1px ;
+border-left-width :1px ;
+border-right-width :1px ;
+border-bottom-width :1px ;
+	border-top : solid yellow;
+	border-left : solid yellow ;
+	border-right : solid yellow;
 	border-bottom : solid yellow ;
 }
